@@ -6,7 +6,7 @@ public class GetSameqAndrSum {
         long num = scan.nextLong();
         long sum = 0;
 
-        for (int i = 0; i < num; i++) {
+        for (long i = 0; i < num; i++) {
             sum += (num + 1) * i;
         }
         System.out.println(sum);
